@@ -1,0 +1,17 @@
+#include<stdio.h>
+int calculaDelta( int a, int b, int c)
+{
+    int delta = b * 2 - 4 *a *c;
+    printf("%d", delta);
+    return 0;
+}
+int main(){
+
+    int a, b, c;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+
+    calculaDelta(a,b,c);
+    return 0;
+}
