@@ -1,0 +1,17 @@
+#include<stdio.h>
+int Juros(double c, double m, double t)
+{
+    double juros;
+    juros = c * m * (t/100);
+    printf("%0.2lf", juros);
+}
+int main(){
+    double c, m, t;
+    scanf("%lf", &c);
+    scanf("%lf", &m);
+    scanf("%lf", &t);
+
+    Juros(c,m,t);
+
+    return 0;
+}
