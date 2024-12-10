@@ -1,0 +1,29 @@
+#include<stdio.h>
+int Npares(int a, int b, int c)
+{
+    int i;
+    if(a % 2 == 0)
+    {
+        i++;
+    }
+    if(b % 2 == 0)
+    {
+        i++;
+    }
+    if(c % 2 == 0)
+    {
+        i++;
+    }
+    printf("%d", i);
+}
+int main(){
+
+    int a, b, c;
+    scanf("%d", &a);
+    scanf("%d", &b);
+    scanf("%d", &c);
+
+    Npares(a,b,c);
+
+    return 0;
+}
