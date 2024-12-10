@@ -1,0 +1,21 @@
+#include<stdio.h>
+int Forma(int b, int h)
+{
+    if(b == h)
+    {
+        printf("0");
+    }
+    else
+    {
+        printf("1");
+    }
+}
+int main(){
+    int b, h;
+    scanf("%d", &b);
+    scanf("%d", &h);
+
+    Forma(b,h);
+
+    return 0;
+}
